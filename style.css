@@ -184,3 +184,82 @@ input[type=submit]{
 }
 
 
+
+/* ************************************************************  media  ********************************************************************************** */
+@media (max-width:500px){
+
+    #logo img{
+        margin: auto 10px;
+       
+    }
+    #navbar{
+        width: 115%;
+    }
+    #navbar ul{
+       padding-left: 5px;
+    }
+    .top{
+    width: 115%;
+    }
+
+    .paneer{
+        width: 400px;
+  }
+  .dosa{
+      width: 400px;
+  }
+  .idali{
+      width: 400px;
+  }
+  .vegetables{
+      width: 400px;
+  }
+  .middle{
+      width: 114%;
+  }
+  .bottom{
+    background-color: lightseagreen;
+    width: 115%;
+}
+}
+
+
+
+@media (max-width:350px){
+
+    #logo img{
+        margin: auto 10px;
+       
+    }
+    #navbar{
+        width: 120%;
+    }
+    #navbar ul{
+       padding-left: 3px;
+    }
+    .top{
+    width: 120%;
+    }
+
+    .paneer{
+        width: 300px;
+  }
+  .dosa{
+      width: 300px;
+  }
+  .idali{
+      width: 300px;
+  }
+  .vegetables{
+      width: 300px;
+  }
+  .middle{
+      width: 120%;
+  }
+  .bottom{
+    background-color: lightseagreen;
+    width: 120%;
+}
+}
+
+
